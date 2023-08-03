@@ -11,7 +11,7 @@ def get_data():
 
 
 def connect_to_mysql_db():
-    connection_string = "mysql+mysqlconnector://user:pass@host/database"
+    connection_string = "mysql+mysqlconnector://user:password@host/database"
     engine = sqlalchemy.create_engine(connection_string)
     return engine
 
