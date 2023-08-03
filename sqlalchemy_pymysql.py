@@ -13,7 +13,7 @@ def get_data():
 
 
 def connect_to_mysql_db():
-    connection_string = "mysql+pymysql://root:aj_198aj_198@localhost/git"
+    connection_string = "mysql+pymysql://user:password@host/database"
     engine = sqlalchemy.create_engine(connection_string)
     return engine
 
