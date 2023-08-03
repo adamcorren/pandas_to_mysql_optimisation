@@ -12,10 +12,10 @@ def get_data():
 
 def connect_server():
     mysql_config = {
-        'host': 'localhost',
-        'user': 'root',
-        'password': 'aj_198aj_198',
-        'database': 'git'
+        'host': '',
+        'user': '',
+        'password': '',
+        'database': ''
     }
     connection = mysql.connector.connect(**mysql_config)
     cursor = connection.cursor()
